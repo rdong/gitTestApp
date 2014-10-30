@@ -1,4 +1,1 @@
-gitTestApp
-==========
-
-app for node.acs git support test
+Project README file
