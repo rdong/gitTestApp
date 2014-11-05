@@ -19,6 +19,8 @@
   },
   "preferGlobal": false,
   "dependencies": {
+		"express": "*",
+		"jade": "*"
   },
   "license":"",
   "private": true
