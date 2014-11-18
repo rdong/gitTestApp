@@ -5,9 +5,7 @@
   "framework": "mvc",
   "bodyParser": true,
   "main": "app.js",
-  "npmRegistry": "https://appcelerator.registry.nodejitsu.com",
-  "npmAuthentication": true,
-  
+
   "keywords": [
   ],
   "author": "",
@@ -22,8 +20,7 @@
   "preferGlobal": false,
   "dependencies": {
 		"express": "*",
-		"jade": "*",
-    "mobware": "*"
+		"jade": "*"
   },
   "license":"",
   "private": true
