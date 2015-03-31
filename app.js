@@ -1,9 +1,12 @@
-// initialize app
-function start(app, express) {
-	app.use(express.favicon(__dirname + '/public/images/favicon.ico'));		//set favicon
-}
+var express = require('express');
+var app = express();
 
-// release resources
-function stop() {
-	
-}
+app.get('/', function(req, res){
+    res.send('This an app published from Github.');
+});
+
+app.get('/ping.json', function(req, res) {
+        res.send({'success': true});
+});
+
+var server = app.listen(8080);

@@ -21,9 +21,7 @@
   },
   "preferGlobal": false,
   "dependencies": {
-		"express": "*",
-		"jade": "*",
-    "mobware": "*"
+		"express": "*"
   },
   "license":"",
   "private": true
