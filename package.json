@@ -5,8 +5,6 @@
   "framework": "mvc",
   "bodyParser": true,
   "main": "app.js",
-  "npmRegistry": "https://appcelerator.registry.nodejitsu.com",
-  "npmAuthentication": true,
   
   "keywords": [
   ],
